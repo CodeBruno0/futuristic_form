@@ -1,0 +1,123 @@
+body {
+    display: flex;
+    background-image: url(https://i.pinimg.com/originals/62/02/b9/6202b931f3d654284e53d6a3e8616a4a.jpg);
+    background-size: cover;
+}
+
+h1 {
+    position: relative;
+    color: aliceblue;
+    margin-top: 35vh;
+    font-size: 100px;
+    font-family: great vibes;
+    width: 30vw;
+    margin-left: 20vw;
+}
+
+p {
+    margin-top: 30vh;
+    width: 20vw;
+    position: relative;
+    margin-left: 18vw;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background: fixed black;
+    padding: 2px 4px;
+    border-radius: 12px;
+    
+}
+
+.wrapper {
+    position: relative;
+    margin-left: -20vw;
+    margin-right: 15%;
+    margin-top: 40vh;
+    display: grid;
+    grid-template-columns: repeat(1, 5fr);
+    grid-column-gap: 60px;
+    grid-row-gap: 2vh;
+    border-radius: 15px;
+    padding: 10px 5px;
+}
+
+
+.wrapper {
+    background-image: linear-gradient(rgb(37, 2, 37), rgb(5, 5, 58));
+    opacity: 90%;
+}
+
+input {
+    text-align: center;
+    position: relative;
+    margin-left: 1vw;
+    margin-right: -50vw;
+    font-size: 3vh;
+    padding: 2.5vh 2.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #130e0e;
+    border-radius: 5px;
+    width: 12vw;
+    background-color: white;
+}
+
+.menu {
+    margin: 0;
+    margin-left: -40vw;
+    margin-top: -1vh;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    list-style: none;
+    border: 0.5px;
+    float: left;
+}
+
+.menu li a:hover {
+    color: yellow;
+    transition: 3s;
+}
+
+.menu li a {
+    color: #cecaca;
+    text-decoration: none;
+    padding: 1px 15px;
+    display: block;
+}
+
+.menu li ul {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    display: none;
+    list-style: none;
+}
+
+.menu li {
+
+    margin: 1vw;
+    position: relative;
+    float: left;
+    border-right: 1px #c0c0c0;
+}
+
+.send li a {
+    text-decoration: none;
+    display: block;
+    margin-top: 85vh;
+    margin-left: -22vw;
+    margin-right: 9vw;
+    background-color: black;
+    padding: 0.5vw;
+    text-align: center;
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, italic;
+}
+
+.send li a:hover {
+background-color: #c0c0c0;
+    color: black;
+    transition: 2s;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome!</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <h1>Welcome to Journey.</h1>
+    <div>
+        <p>Please, register to connect.</p>
+    </div>
+
+    <form method="get" action="Forms">
+        <div class="wrapper">
+
+            <div><label for="Fname"></label>
+                <input type="text" id="Fname" placeholder="First Name" required=" " text=""><br>
+            </div>
+            <div>
+                <label for="Lname"></label>
+                <input type="text" name="Lname" id="Lname" placeholder="Last Name" required=" "><br>
+            </div>
+            <div>
+                <label for="email"></label>
+                <input type="email" id="email" placeholder="Email Address" required=" "><br>
+            </div>
+            <div>
+                <label for="password"></label>
+                <input type="password" id="password" placeholder="Password" required=" " pattern="^\d{3}-\d{2}-\d{4}$"
+                    title="Digite uma senha válida"><br>
+
+            </div>
+
+        </div>
+
+    </form>
+
+
+    <nav>
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Vision</a></li>
+          <li><a href="#">Packages</a></li>
+          <li><a href="#">Your Journey</a></li>
+          <li><a href="#">Categories</a></li>
+        </ul>
+      </nav>
+    
+      <div class="send"><li><a href="#">Send</a></li></div>
+    
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
